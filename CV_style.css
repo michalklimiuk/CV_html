@@ -1,0 +1,81 @@
+*
+{
+    background-color: skyblue;
+    font-family: monospace;
+}
+
+#header
+{
+    font-size: 50px;    /* wielkość tekstu */
+    text-align: center; /* położenie tekstu */
+}
+
+#navbar
+{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+a:hover
+{
+    color: orangered;
+    font-size: 125%;
+    cursor: pointer; /* pojawienie się "łapki" */
+}
+
+a:visited
+{
+    color: orangered
+}
+
+#obraz
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+#container
+{
+    display: grid;  /* układanie elementów w sitace */
+    grid-template-columns: 1fr 1fr; /*definiowanie ulozenia kolumn*/
+    grid-template-columns: 1fr 1fr;
+}
+
+#picture
+{
+ 
+}
+
+#opis
+{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#formularz
+{
+    text-align: center;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;  
+}
+
+#foot
+{
+    text-align: center;
+    
+}
+
+#experience
+{
+    font-size: 50px
+}
+
+label:hover
+{
+    cursor: pointer
+}

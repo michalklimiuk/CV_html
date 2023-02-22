@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pl">
+<!-- określenie języka strony -->
+
+<head>
+    <!-- nagłowek -->
+    <meta charset="utf-8" /> <!-- uwzględnienie zestawu polskich znaków -->
+    <title>Michał Klimiuk - CV</title> <!-- nazwanie strony przy ikonie -->
+    <link rel="stylesheet" type="text/css" href="CV_style.css" /> <!-- określenie połączenia z konkretnym plikiem .css -->
+    <link rel="icon" href="images/ikona.ico" /> <!-- wstawienie ikony  -->
+    <meta name="description" content="CV" />
+    <meta name="keywords" content="CV" />
+    <meta name="author" content="Michał" /> <!-- określenie autora, keywords do wyszukiwarki i opisu strony -->
+</head>
+
+<body>
+    <header id="header"><span id="title">Contact</span></header> <!-- tytuł strony -->
+    <br><br>
+    <nav id="navbar">
+        <a target="_self" href="CV_index.html">Main</a>
+        <a target="_self" href="CV_about_me.html">About me</a>
+        <a target="_self" href="CV_exp.html">Experience</a>
+        <a target="_self" href="CV_edu.html">Education</a>
+        <a target="_self" href="CV_hobby.html">Hobbies</a>
+        <a target="_self" href="CV_contact.html">Contact</a>
+    </nav>
+    <br>
+    <br>
+     <form action="" method="get">
+        <div id="formularz"><span>Contact with me: </span>
+            <p>
+                Your first and last name: <input type="text" name="nazwa" value="First name Last name" size="20" maxlength="10">
+            </p>
+            <p>
+                E-mail: <input type="email" name="nazwa" required>
+            </p>
+            <p>
+                Phone number: <input type="number" name="nazwa">
+            </p>
+            <p>
+                Date: <input type="date" name="nazwa">
+            </p><br>
+            <p>Choose message type:</p>
+            <p>
+                <label><input type="radio" name="plec" value="prio" checked="checked">Priority</label>
+            </p>
+            <p>
+                <label><input type="radio" name="plec" value="not-prio" checked="checked">Normal</label>
+            </p><br>
+            <p>What do you want to ask about?: </p>
+            <p><label><input type="checkbox" name="pytanie" value="C">Experience</label></p>
+            <p><label><input type="checkbox" name="pytanie" value="Java">Education</label></p>
+            <p><label><input type="checkbox" name="pytanie" value="Python">Hobbies</label></p><br>
+            <p>Enter your message:</p>
+            <textarea name="nazwa" rows="5" cols="80" placeholder="Wpisz tekst">TEXT</textarea>
+            <p><input type="submit" value="Send"> <input type="reset" value="Restart"></p>
+        </div>
+    </form>
+
+    <br>
+    <footer id="foot"><span>All rights reserved</span></footer>
+</body></html>
